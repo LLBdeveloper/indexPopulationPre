@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const schema = new mongoose.Schema({
     nombre: {
         type: String, 
-        index: true
+        //index: true
     },
     apellido: {
         type: String
